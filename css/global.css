@@ -293,6 +293,8 @@ footer p a {
     
     .barre {
         position: static;
+        display: flex;
+        align-items: center;
     }
 
     /* #endregion */
@@ -371,5 +373,10 @@ footer p a {
         top:-25%;
         font-size:3.9em;
     }
+    
+    .barre {
+        height: 7vh;
+    }
+    
     
 }
